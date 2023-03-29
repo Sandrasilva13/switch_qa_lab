@@ -1,4 +1,4 @@
-function calculaMediaPesada(nota1: number, nota2: number, nota3: number, peso1: number, peso2: number, peso3: number): number {
+export function calculaMediaPesada(nota1: number, nota2: number, nota3: number, peso1: number, peso2: number, peso3: number): number {
 
     let somaPesos = peso1 + peso2 + peso3;
     let mediaPesada = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3)) / somaPesos;
@@ -17,5 +17,3 @@ let mediaPesada: number = 0.0;
 mediaPesada = calculaMediaPesada(nota1, nota2, nota3, peso1, peso2, peso3);
 
 console.log("media pesada =" + mediaPesada);
-
-export { calculaMediaPesada }
