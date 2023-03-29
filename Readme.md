@@ -1,37 +1,19 @@
-# DESOFT I - Lab Classes Support Project
+# DESOFT I - Lecture Classes Support Project
 
 Look at the docs folder for the documentation.
 
 # How to prepare the environment?
 
+Install dependencies.
+
 ```shell
 $ npm install
 ```
 
-# How to automatically compile the TypeScript files?
-
-## With continual watch
+Run tests.
 
 ```shell
-$ tsc -w
-```
-
-# How to run the code for a file?
-
-```shell
-$ node dist/js/<file>.js
-```
-
-# How to run Jest Tests?
-
-```shell
-$ npm run test
-```
-
-Using a continual approach
-
-```shell
-$ npm run test-watch
+$ npm test
 ```
 
 # Mutation Testing for TypeScript
@@ -68,18 +50,17 @@ Otherwise, look at the configuration file already provided on this project stryk
 
 Stryker also changes the .gitignore file to ignore the stryker folder: .stryker-tmp
 
-## Run Stryker Mutation when globally installed 
+## Run Stryker Mutation when globally installed
 
 ```shell
 $ stryker run
 ```
 
-## Run Stryker when locally installed 
+## Run Stryker when locally installed
 
 ```shell
 $ npx stryker run
 ```
-
 
 # Who do I talk to about this repository?
 
