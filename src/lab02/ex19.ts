@@ -1,0 +1,5 @@
+function calculaHoraProcessamento (horaInicioProcessamento: number){
+
+
+
+}

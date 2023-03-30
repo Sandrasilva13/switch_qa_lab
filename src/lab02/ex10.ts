@@ -13,3 +13,4 @@ function calculaMultiplos(x: number, y: number): string {
     return resultado;
 
 }
+
