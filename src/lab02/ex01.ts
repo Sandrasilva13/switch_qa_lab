@@ -17,3 +17,4 @@ let mediaPesada: number = 0.0;
 mediaPesada = calculaMediaPesada(nota1, nota2, nota3, peso1, peso2, peso3);
 
 console.log("media pesada =" + mediaPesada);
+
