@@ -29,7 +29,6 @@ if (teste1)
     console.log("crescente" );
 else
     console.log("nao crescente" );
-    
 
 
 
