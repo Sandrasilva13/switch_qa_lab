@@ -24,7 +24,7 @@ function calculaDigitosCrescente(numero: number): boolean {
     return resultado;
 }
 
-let teste1 = calculaDigitosCrescente(431);
+let teste1 = calculaDigitosCrescente(435);
 if (teste1)
     console.log("crescente" );
 else
