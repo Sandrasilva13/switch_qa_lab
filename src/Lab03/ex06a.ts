@@ -15,6 +15,7 @@ export function numberOfMultiplesOf3InRange(start:number, end:number):number{
     ensureInteger(start);
     ensureInteger(end);
     ensureStartLessThanEnd(start, end);
+
     let count:number = 0;
     for(let i = start; i <= end; i++){
         if(i % 3 == 0){

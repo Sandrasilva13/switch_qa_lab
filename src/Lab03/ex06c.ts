@@ -8,12 +8,11 @@ import { ensurePositive, ensureInteger, ensureStartLessThanEnd } from "./functio
 
 export function multiplesOfThreeAndFive(start: number, end: number): number {
    
-    let res = 0;
-    let x: number;
-    for (x = start; x <= end; x++){
-        if (x % 3 == 0 || x % 5 == 0){
-            res++;
+    let count: number = 0;
+      for (let i = start; i <= end; i++){
+        if (i % 3 == 0 && i % 5 == 0){
+            count++;
         }
     }
-    return res;
+    return count;
 }

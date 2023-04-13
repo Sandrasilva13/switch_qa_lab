@@ -15,9 +15,13 @@ export function calcularCambio(valor: number, cambio: string): number {
 
     let resultado: number = 0;
 
-    if (dolar== 0 && libra == 0 && iene == 0 && coroaSueca == 0 && francoSuico == 0) {
+    if (dolar == 0 && libra == 0 && iene == 0 && coroaSueca == 0 && francoSuico == 0) {
         throw new Error('Invalid Number');
     }
+    if ( cambio != "D" && cambio != "L" && cambio != "I" && cambio != "CS" && cambio != "FS"){
+        throw new Error('Invalid Currency');
+    }
+
 
     if (cambio == "D") {
         resultado = valor * 1.534;
