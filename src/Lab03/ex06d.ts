@@ -14,4 +14,6 @@ export function multiplesOfTwoIntegers(start: number, end: number, number1: numb
     if (i % number1 == 0 && i % number2 == 0){
         count++;
     }
+
+    return count;
 }
